@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wanderer\'s Nightsong</string>
+    <string name="night_song">
+Peace breathes along the shade\n 
+ Of every hill.\n
+The tree tops of the glade\n
+ Are hushed and still.\n
+All woodland murmurs cease.\n 
+The birds to rest within the brake are gone,\n
+Be patient, weary heart, anon\n
+Thou, too, shalt be at peace.\n\n
+Sir Theodore Martin (1844)
+	</string>
+   <string name="night">Night image</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mango.mango.lunohod1.MainActivity" >
+
+    <ImageView
+        android:id="@+id/coverart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/coverartDescription"
+        android:scaleType="fitXY"
+        android:src="@drawable/coverart" />
+
+    <Button
+        android:id="@+id/facebookbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#3b5998"
+        android:onClick="openFB"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/facebook"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/websitebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/facebookbutton"
+        android:background="#c80"
+        android:onClick="openWebSite"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/buy"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrolly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@id/facebookbutton"
+        android:layout_below="@id/coverart"
+        android:layout_margin="8dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/LyricsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lyrics" />
+    </ScrollView>
+
+</RelativeLayout>

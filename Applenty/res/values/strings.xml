@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">4 Web pages in 1 App</string>
+    <string name="title_activity_war_of_worlds" translatable="false">War of Worlds</string>
+    <string name="title_activity_jabberwocky" translatable="false">Jabberwocky</string>
+    <string name="wikiButtonLabel" translatable="false">Wikipedia</string>
+    <string name="pictureButtonLabel" translatable="false">Picture</string>
+    <string name="title_activity_nasa" translatable="false">NASA 0g</string>
+    <string name="title_activity_roundball" translatable="false">Roundball</string>
+
+</resources>
